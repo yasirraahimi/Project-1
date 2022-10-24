@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+
+html{
+    height: 1em;
+ 
+}
+
+.formCap{
+    height: 100px;
+    width: 300px;
+    background-color: #393c77;
+    position: absolute;
+    left: 36.58vw;
+    top: 200px;
+    border-radius: 20px 20px 0 0;
+}
+form{
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 320px;
+    position: absolute;
+    left: 36.58vw;
+    top: 250px;
+    border-radius:  0 0 20px 20px;
+}
+label{
+color:#393c77;
+position: relative;
+   top: 10px;
+   left: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+input[type=text]{
+    padding: 15px;
+    margin: 5px 0 9px 0;
+  height: 5px;
+  width: 200px;
+    border: none;
+    border-radius: 10px;
+    background:#f0f0f0;
+    position: relative;
+    top: 10px;
+    left: 40px;
+  }
+
+#gender{
+    position: relative;
+    top: 9px;
+    left: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+select{
+    border-radius: 10px;
+    background:#f0f0f0;
+}
+select, option {
+ 
+    height: 35px;
+    width: 150px;  
+}
+#message{
+    height: 60px;
+}
+#submit{
+    height: 30px;
+    width: 100px;
+      border: none;
+      border-radius: 10px;
+      background:#f0f0f0;
+      position: relative;
+      top: 20px;
+      left: 100px;
+      background-color: #1947ff;
+      color: white;
+    }
+

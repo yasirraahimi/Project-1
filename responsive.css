@@ -1,0 +1,713 @@
+
+
+ .toggle-button{
+    position: absolute;
+    color: white;
+    flex-direction: column;
+    top: .75rem;
+    right: 1rem;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    display: none;
+ }
+ .toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+ }
+
+
+
+  /* YOUTUBE CHANNEL RESPONSIVE NAVBAR */
+
+
+
+ 
+ @media (max-width: 850px){
+    .toggle-button{
+        display: flex;
+        z-index: 2;
+        top: 20px;
+    }
+
+
+header {
+   flex-direction: column;
+   align-items: center;
+  
+}
+header ul {
+   flex-direction: column;
+   width: 100%;
+   
+}
+header ul li{
+   text-align: center;
+   line-height: 80px;
+  
+}
+header ul .listItems{
+
+}
+header ul .list{
+   top: 0px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-right: 75px;
+    position: absolute;
+    z-index: 1;
+    background: #0e0e0e;
+   
+}
+ }
+
+
+
+ /* CONTACT FORM  */
+ .formCap{
+   height: 100px;
+   width: 300px;
+   background-color: #393c77;
+   position: absolute;
+   left: 35vw;
+   top: 100px;
+   border-radius: 20px 20px 0 0;
+}
+form{
+   background: rgb(255, 255, 255);
+   width: 300px;
+   height: 320px;
+   position: absolute;
+   left: 35vw;
+   top: 150px;
+   border-radius:  0 0 20px 20px;
+}
+
+
+/* PAGE IS UNDERDEVELOPMENT */
+
+
+
+
+
+
+
+ @media (max-width: 425px){
+
+
+
+/* CONTACT FORM  */
+.formCap{
+   height: 200px;
+   width: 250px;
+   background-color: #393c77;
+   position: absolute;
+   left: 18vw;
+   top: 100px;
+   border-radius: 20px 20px 0 0;
+}
+form{
+   background: rgb(255, 255, 255);
+   width: 250px;
+   height: 280px;
+   position: absolute;
+   left: 18vw;
+   top: 150px;
+   border-radius:  0 0 20px 20px;
+}
+
+label{
+   color:#393c77;
+   position: relative;
+      top: 10px;
+      left: 20px;
+       font-family: 'Source Sans Pro', sans-serif;
+   }
+   
+   
+   
+   
+   input[type=text]{
+       padding: 15px;
+       margin: 5px 0 9px 0;
+     height: 5px;
+     width: 210px;
+       border: none;
+       border-radius: 10px;
+       background:#f0f0f0;
+       position: relative;
+       top: 10px;
+       left: 20px;
+     }
+   
+   #gender{
+       position: relative;
+       top: 9px;
+       left: 20px;
+       font-family: 'Source Sans Pro', sans-serif;
+   }
+   select{
+       border-radius: 10px;
+       background:#f0f0f0;
+   }
+   select, option {
+    
+       height: 35px;
+       width: 150px;  
+   }
+   #message{
+       height: 60px;
+   }
+   #submit{
+       height: 30px;
+       width: 100px;
+         border: none;
+         border-radius: 10px;
+         background:#f0f0f0;
+         position: relative;
+         top: 20px;
+         left: 80px;
+         background-color: #1947ff;
+         color: white;
+       }
+ 
+
+
+
+
+
+
+
+
+
+/* F TITILE */
+
+ .fTitle{
+   position: relative;
+   color: rgb(255, 255, 255);
+   font-size: 20px;
+   font-family: sans-serif;
+   /* background: red; */
+   padding: 6px;
+   top: 20px;
+   left: 20px;
+   border-left: 4px solid #9f4bb1;
+ padding-right: 1000px;
+ /* background-color: blue; */
+
+}
+
+.featuredImages{
+   position: unset;
+  margin-top: 50px;
+
+display: flex;
+height: 200px;
+width: 350px;
+overflow-x: scroll;
+margin-left: 30px;
+border-radius: 20px;
+}
+
+.imgFe{
+padding: 10px;
+    transition: none;
+   height: 190px;
+width: 370px;
+box-shadow:  0px  0px  100px  #5100ff;
+
+border-radius: 20px;
+
+}
+
+.imgF{
+  
+    /* z-index: -1; */
+    transition: none;
+}
+
+.featuredImages::-webkit-scrollbar {
+   width: 2px;
+}
+
+.featuredImages::-webkit-scrollbar {
+ height: 8px;
+}
+
+.featuredImages::-webkit-scrollbar-thumb {
+   border-radius: 8px;
+   -webkit-box-shadow: inset 1px 1px 10px#8a8a8a00;
+
+  
+}
+
+/* LEFT AND RIGHT BUTTON */
+#rightwhite{
+   display: none;
+
+}
+.aVector3{
+   display: none;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.aVector1{
+   display: none;
+
+   
+}
+
+.aVector4{
+   display: none;
+
+}
+
+.aVector4:hover{
+   display: none;
+  
+}
+
+
+#idimg{
+   position:unset;
+}
+#idimg1{
+   position:unset;
+}
+#idimg2{
+   position:unset;
+}
+#idimg3{
+   position:unset;
+}
+#idimg4{
+   position:unset;
+}
+#idimg5{
+   position:unset;
+}
+#idimg6{
+   position:unset;
+}
+#idimg7{
+   position:unset;
+}
+#idimg8{
+   position:unset;
+}
+#idimg9{
+   position:unset;
+}
+#idimg10{
+   position:unset;
+}
+#idimg11{
+   position:unset;
+}
+#idimg12{
+   position:unset;
+}
+#idimg13{
+   position:unset;
+}
+#idimg14{
+   position:unset;
+}
+#idimg15{
+   position:unset;
+}
+#idimg16{
+   position:unset;
+}
+  
+
+
+
+
+
+/* MOVIE TITLE */
+.movieTitle{
+   position: unset;
+   color: white;
+   font-size: 20px;
+   font-family: sans-serif;
+   /* background: red; */
+   padding: 6px;
+   margin-top: 50px;
+   margin-left: 20px;
+   border-left: 4px solid #9f4bb1;
+
+
+
+
+}
+.movieImages{
+   display: flex;
+   margin-top: 30px;
+   margin-left: 10px;
+   display: flex;
+height: 170px;
+width: 390px;
+/* background-color: green; */
+overflow-x: scroll;
+border-radius: 20px;
+}
+.movieImg1{
+   height: 160px;
+ width: 280px;
+ padding: 10px;
+ border-radius: 10px;
+}
+/* SCROL BAR  */
+.movieImages::-webkit-scrollbar {
+   width: 2px;
+}
+
+.movieImages::-webkit-scrollbar {
+ height: 8px;
+}
+
+.movieImages::-webkit-scrollbar-thumb {
+   border-radius: 8px;
+   -webkit-box-shadow: inset 1px 1px 10px#8a8a8a00;
+
+  
+}
+
+
+
+.movieImages2{
+   display: flex;
+   margin-top:10px;
+   display: flex;
+  
+   margin-left: 10px;
+   display: flex;
+height: 170px;
+width: 390px;
+/* background-color: green; */
+overflow-x: scroll;
+border-radius: 20px;
+}
+.movieImg1{
+   height: 160px;
+ width: 280px;
+ padding: 5px;
+}
+
+/* SCROL BAR  */
+.movieImages2::-webkit-scrollbar {
+   width: 2px;
+}
+
+.movieImages2::-webkit-scrollbar {
+ height: 8px;
+}
+
+.movieImages2::-webkit-scrollbar-thumb {
+   border-radius: 8px;
+   -webkit-box-shadow: inset 1px 1px 10px#8a8a8a00;
+
+  
+}
+
+
+.tvTitle{
+   position: relative;
+   color: white;
+   font-size: 20px;
+   font-family: sans-serif;
+   /* background: red; */
+   padding: 6px;
+   top: 40px;
+   left: 30px;
+   border-left: 4px solid #9f4bb1;
+   padding-right: 1000px;
+   }
+
+
+
+
+   /* SEARCH BAR */
+   .search{
+      position: absolute;
+      top: 22px;
+      left: 120px;
+      height: 20px;
+      width: 200px;
+   border-radius: 5px;
+   background: #272727
+   
+   }
+   input{
+       /* border-color: blue; */
+       color: #8a8a8a;
+       outline: 0;
+   }
+   .sLogo{
+   position: absolute;
+   height: 15px;
+   width: 15px;
+   left: 300px;
+   top: 24px;
+   
+   }
+   .s1Logo{
+       position: absolute;
+       height: 15px;
+       width: 15px;
+       left: 300px;
+       top: 24px;
+       opacity: 0;
+   }
+   .s1Logo:hover{
+      opacity: 1;
+   }
+ }
+ @media (max-width: 425px){
+   
+   
+   
+   .toggle-button{
+      display: flex;
+      z-index: 2;
+      top: 25px;
+      height: 15px;
+      width: 20px;
+  }
+   
+   
+   
+   
+   
+   
+   
+   .search{
+      position: absolute;
+      top: 22px;
+      left: 90px;
+      height: 20px;
+      width: 170px;
+   border-radius: 5px;
+   background: #272727
+   
+   }
+   input{
+       /* border-color: blue; */
+       color: #8a8a8a;
+       outline: 0;
+   }
+   .sLogo{
+   position: absolute;
+   height: 15px;
+   width: 15px;
+   left: 240px;
+   top: 24px;
+   
+   }
+   .s1Logo{
+       position: absolute;
+       height: 15px;
+       width: 15px;
+       left: 240px;
+       top: 24px;
+       opacity: 0;
+   }
+   .s1Logo:hover{
+      opacity: 1;
+   }
+
+ }
+
+
+
+ @media (max-width: 380px){
+   .search{
+      position: absolute;
+      top: 22px;
+      left: 90px;
+      height: 20px;
+      width: 200px;
+   border-radius: 5px;
+   background: #272727
+   
+   }
+   input{
+       /* border-color: blue; */
+       color: #8a8a8a;
+       outline: 0;
+   }
+   .sLogo{
+   position: absolute;
+   height: 15px;
+   width: 15px;
+   left: 270px;
+   top: 24px;
+   
+   }
+   .s1Logo{
+       position: absolute;
+       height: 15px;
+       width: 15px;
+       left: 270px;
+       top: 24px;
+       opacity: 0;
+   }
+   .s1Logo:hover{
+      opacity: 1;
+   }
+
+ }
+
+ @media (max-width: 350px){
+
+   #tvList1{
+      left: 15px;
+   }
+   #tvList2{
+      left: 15px;
+   }
+   #tvList3{
+      left: 15px;
+   }
+   #tvList4{
+      left: 15px;
+   }
+   #tvList5{
+      left: 15px;
+   }
+}
+
+
+/* CONTACT FORM  */
+/* .formCap{
+   height: 200px;
+   width: 250px;
+   background-color: #393c77;
+   position: absolute;
+   left: 14vw;
+   top: 100px;
+   border-radius: 20px 20px 0 0;
+}
+form{
+   background: rgb(255, 255, 255);
+   width: 250px;
+   height: 280px;
+   position: absolute;
+   left: 14vw;
+   top: 150px;
+   border-radius:  0 0 20px 20px;
+}
+
+label{
+   color:#393c77;
+   position: relative;
+      top: 10px;
+      left: 20px;
+       font-family: 'Source Sans Pro', sans-serif;
+   }
+   
+   
+   
+   
+   input[type=text]{
+       padding: 15px;
+       margin: 5px 0 9px 0;
+     height: 5px;
+     width: 210px;
+       border: none;
+       border-radius: 10px;
+       background:#f0f0f0;
+       position: relative;
+       top: 10px;
+       left: 20px;
+     }
+   
+   #gender{
+       position: relative;
+       top: 9px;
+       left: 20px;
+       font-family: 'Source Sans Pro', sans-serif;
+   }
+   select{
+       border-radius: 10px;
+       background:#f0f0f0;
+   }
+   select, option {
+    
+       height: 35px;
+       width: 150px;  
+   }
+   #message{
+       height: 60px;
+   }
+   #submit{
+       height: 30px;
+       width: 100px;
+         border: none;
+         border-radius: 10px;
+         background:#f0f0f0;
+         position: relative;
+         top: 20px;
+         left: 80px;
+         background-color: #1947ff;
+         color: white;
+       } */
+
+
+
+ @media (max-width: 335px){
+   .search{
+      position: absolute;
+      top: 22px;
+      left: 90px;
+      height: 20px;
+      width: 120px;
+   border-radius: 5px;
+   background: #272727
+   
+   }
+   input{
+       /* border-color: blue; */
+       color: #8a8a8a;
+       outline: 0;
+   }
+   .sLogo{
+   position: absolute;
+   height: 15px;
+   width: 15px;
+   left: 220px;
+   top: 24px;
+   
+   }
+   .s1Logo{
+       position: absolute;
+       height: 15px;
+       width: 15px;
+       left: 220px;
+       top: 24px;
+       opacity: 0;
+   }
+   .s1Logo:hover{
+      opacity: 1;
+   }
+
+
+
+ }
+
+ 
